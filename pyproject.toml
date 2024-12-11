@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "geolocalizacionip"
+version = "0.1.0"
+description = ""
+authors = ["adrianinfantes <infantesromeroadrian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipinfo = "^5.1.1"
+python-dotenv = "^1.0.1"
+folium = "^0.19.0"
+pythondns = "^0.1"
+dnspython = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
